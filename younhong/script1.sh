@@ -1,5 +1,6 @@
 #! /bin/bash
 
+echo "n = $1"
 if [ $1 -lt 1 ]; then
 echo ""
 elif [ $1 -gt 12 ]; then
