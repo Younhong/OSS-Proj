@@ -10,9 +10,9 @@ else
 while [ $input -ne $num ] 
 do
     if [ $input -lt $num ]; then
-    echo "Higher"
-    elif [ $input -gt $num ]; then
     echo "Lower"
+    elif [ $input -gt $num ]; then
+    echo "Higher"
     fi
     read input
 done
