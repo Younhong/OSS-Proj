@@ -6,7 +6,7 @@ echo "Odd numbers from 1 to 50"
 if [ $number -lt 1 ]; then
     echo "Input smaller than 1"
 elif [ $number -gt 50 ]; then
-    echo "Input grater than 50"
+    echo "Input greater than 50"
 else
     for ((i = 1; i <= $number; i++))
     do
