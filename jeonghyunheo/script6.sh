@@ -7,9 +7,9 @@ length=${#str}
 revstr=""
 i=$length
 
-revstr=$str|rev
+revstr=$(echo ${str}|rev)
 
-if [ "$str" = "${revstr}" ]; then
+if [ "$str" = "$revstr" ]; then
 	echo "$str is a palindrome"
 else
 	echo "$str is not a palindrome"
