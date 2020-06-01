@@ -3,9 +3,7 @@
 echo "Enter a string:"
 read str
 
-length=${#str}
 revstr=""
-i=$length
 
 revstr=$(echo ${str}|rev)
 
