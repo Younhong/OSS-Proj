@@ -1,3 +1,5 @@
-# This project is from Open Source Software Course
+This project is from Open Source Software Course
 
-# Each member works on assignment and upload on github.
+Each member works on assignment and upload on github.
+
+Practice on c, bash shell, linux and github
